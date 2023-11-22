@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Temperatura - Prof. Anthony Freitas</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+	<div class="degrade">
+		<div class="outer-container">
+			<div class="social-icons">
+				<a href="" target="_blank"><i class="fas fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/in/tony-s-freitas/" target="_blank"> <i class="fab fa-linkedin"></i></a>
+				<a href="https://sammyfreitas.github.io/portfolioSite/" target="_blank"><i class="fas fa-globe"></i></a>
+				<a href="https://github.com/sammyfreitas" target="_blank"><i class="fab fa-github"></i></a>
+				<a href="https://www.instagram.com/anthony_tijuduke" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="mailto:tonysdefreitas@gmail.com?subject=Fale%20Conosco"><i class="far fa-envelope"></i></a>
+				<a href="https://wa.me/5521975287327" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i></a>
+			</div>
+		</div>
+		<div id="container">
+			<label for="temperature">Digite a temperatura:</label><br>
+			<input type="number" id="temperature" class="custom-input"><br>
+			
+			<div class="input-label">
+			  <label for="unit">Escolha a unidade:</label><br>
+			  <select id="unit" class="custom-input">
+				<option value="celsius">Celsius</option>
+				<option value="fahrenheit">Fahrenheit</option>
+			  </select><br>
+			</div>
+			<br>
+			<button onclick="converterTemperatura()">Converter</button><br>
+
+			<div id="result" class="custom-input"></div>
+		  
+		  </div>
+	<footer>
+    Desenvolvido por <a href="https://github.com/sammyfreitas/portfolioSite" target="_blank">Anthony Freitas</a>, todos os direitos reservados - 2023.
+	</footer>
+	</div>
+
+  <script src="./js/script.js"></script>
+  
+</body>
+
+</html>
